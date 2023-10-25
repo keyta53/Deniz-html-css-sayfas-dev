@@ -1,0 +1,92 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    min-height: 100vh;
+    background-image: linear-gradient(#0c6664, #012d2c);
+    font-family: "Trirong", serif;
+
+
+
+}
+
+.box {
+    width: 700px;
+    background: #7d9898;
+    padding: 60px;
+    text-align: center;
+    margin: 5% auto;
+    color: white;
+    
+}
+
+.container {
+    display: flex;
+    
+   
+}
+
+
+.box1{
+    width: 90%;
+    border: 5px solid;
+    background: #1a3d3c;
+    
+    border-color: rgb(240, 199, 75) yellowgreen rgb(232, 130, 164) rgb(107, 191, 233);
+    /* Kutular arasında 15px boşluk ekleyin */
+
+    text-align: left;
+    padding: 20px;
+    margin: 20px;
+    /* İsteğe bağlı: Kutu içeriğine biraz boşluk eklemek için */
+    border-radius: 30px 30PX 30px;
+}
+
+
+.sosyal-medya ul {
+    display: inline-flex;
+    list-style-type: none;
+    gap: 90px;
+    font-size: 30px;
+    margin: 30px auto ;
+    
+
+}
+
+img {
+    width: 500px;
+    border-radius: 300px 300PX;
+    border: 5px solid #013736;
+
+    margin: 10px;
+    padding: 10px;
+    inline-size: 400px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+
+}
+
+.box h1 {
+    font-size: 52px;
+    letter-spacing: 5px;
+    font-weight: bold;
+    background-color: rgb(77, 70, 70);
+}
+
+.box h5 {
+    font-size: 22px;
+    text-shadow: 0 0 5px #012d2c;
+}
+
+.box p {
+    text-align: justify;
+    font-size: 18px;
+    font-weight: bold;
+    /* text-align: justify; yazıyı iki yana yaslıyor */
+}
+
+.box li{
+    transition: all ease-in-out 260ms;
+}
+
+.box li:hover{
+    color: aqua;
+}
